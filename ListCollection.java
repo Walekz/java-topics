@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class Collections {
+public class ListCollection {
 
   private List<Integer> listNumbers(){
     List<Integer> list = new ArrayList<Integer>();
@@ -14,8 +14,8 @@ public class Collections {
   }
 
   public static void main(String args[]){
-    Collections collections = new Collections();
-    List<Integer> result = collections.listNumbers();
+    ListCollection collection = new ListCollection();
+    List<Integer> result = collection.listNumbers();
     for(Integer value : result){
       System.out.println("Number: " + value);
     }
